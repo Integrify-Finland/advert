@@ -1,0 +1,36 @@
+<style>.block {
+    border: solid 5px #ebedef;
+}
+
+.row {
+    height: 200px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    height: 150px;
+    background-color: red;
+    width: 300px;
+    flex: 1;
+    margin-right: 10px;
+    margin-left: 10px;
+    border: solid 5px black;
+    border-radius: 10px;
+}
+
+.box2 {
+    background-color: red;
+    height: 150px;
+    border: dotted 10px black;
+    flex: 4;
+}
+
+.box3 {
+    background-color: red;
+    height: 150px;
+    border: dashed 5px gold;
+    flex: 4;
+}

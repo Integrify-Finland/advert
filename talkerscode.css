@@ -1,0 +1,145 @@
+.body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.content {
+    margin-top: -20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    width: 100%;
+    /* column-gap: 10px;
+    row-gap: 10px; */
+    /* gap: 10px; */
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #4c66a3;
+    grid-column: 1/8;
+    height: 100px;
+}
+
+.right {
+    display: flex;
+}
+
+#login {
+    margin-top: 50px;
+    width: 70px;
+    margin-left: 25px;
+    margin-right: 20px;
+}
+
+.name {
+    margin-left: 6px;
+}
+
+.tela {
+    color: whitesmoke;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: larger;
+}
+
+.forgot {
+    margin-top: 0px;
+}
+
+.main {
+    margin-top: -10px;
+    background-color: #E8EBF4;
+    grid-column: 1/6;
+    grid-row: 2/8;
+}
+
+h2 {
+    color: #42515E;
+    margin-left: 20px;
+}
+
+.sidebar {
+    background-color: #E8EBF4;
+    grid-column: 5/8;
+    grid-row: 2/8;
+}
+
+.footer {
+    margin-left: 8px;
+    background-color: #E8EBF4;
+    grid-column: 1/8;
+}
+
+.btn {
+    color: #E8EBF4;
+    padding: 20px 20px;
+}
+
+button {
+    background-color: #4c66a3;
+}
+
+
+/* #account {
+    background-color: #5C9F54;
+    height: 50px;
+    width: 200px;
+} */
+
+#signin {
+    height: 30px;
+    width: 80%;
+    margin: 5px;
+}
+
+.data {
+    margin-left: 8px;
+    display: flex;
+    height: 20px;
+}
+
+.birthday {
+    margin-left: 8px;
+}
+
+#birthday {
+    width: 40px;
+}
+
+#month {
+    margin-left: 5px;
+    width: 40px;
+}
+
+#year {
+    margin-left: 5px;
+    width: 40px;
+}
+
+.texts {
+    margin-top: -0px;
+    margin-left: 10px;
+}
+
+h5 {
+    color: #4c66a3;
+    margin-top: -3px;
+}
+
+.names {
+    font-weight: bold;
+    font-size: larger;
+    margin-left: 8px;
+    display: flex;
+}
+
+#man {
+    margin-left: 10px;
+}
+
+.text2 {
+    color: #878995;
+    margin-left: 8px;
+}

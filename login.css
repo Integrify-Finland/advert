@@ -1,0 +1,42 @@
+.container {
+    height: 400px;
+    width: 400px;
+    background-color: #FEFFFE;
+    border: 25px solid #3598DC;
+    border-radius: 10px;
+}
+
+.h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.userp {
+    background-color: #F2F2F2;
+    height: 40px;
+    width: 70%;
+    text-align: center;
+    margin-left: 7%;
+    margin-top: 9%;
+}
+
+.sign {
+    background-color: #3598DC;
+    height: 40px;
+    text-align: center;
+    width: 70%;
+    margin-left: 7%;
+    margin-top: 9%;
+    font-size: 20px;
+}
+
+.content3 {
+    text-align: center;
+    color: #F5F3EF;
+}
+
+.userp {
+    text-align: left;
+    margin-top: 3%;
+}
